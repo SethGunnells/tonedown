@@ -1,2 +1,5 @@
-# zenbones-ts
-A TypeScript implementation of zenbones.nvim
+# Tonedown
+
+Calm, desaturated versions of popular themes for all your favorite apps and tools.
+
+Inspired by zenbones
