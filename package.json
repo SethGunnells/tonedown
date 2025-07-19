@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "colorjs.io": "^0.5.2"
+  },
+  "name": "tonedown",
+  "module": "main.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
