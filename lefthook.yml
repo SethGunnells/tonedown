@@ -1,0 +1,8 @@
+pre-commit:
+  jobs:
+    - name: format
+      run: bun format
+
+    - name: lint
+      run: bun lint
+      stage_fixed: true

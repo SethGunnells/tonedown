@@ -8,6 +8,7 @@
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
+    "lefthook": "1.12.3",
     "oxlint": "^1.13.0",
     "prettier": "3.6.2"
   },
@@ -15,6 +16,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "lint": "oxlint"
+    "lint": "oxlint --fix",
+    "format": "prettier -w ."
   }
 }
